@@ -1,0 +1,175 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #1f2937;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+ul,
+li,
+a   {
+    text-decoration: none;
+    list-style-type: none;
+    color: lightgray;
+    padding-right: 10px;
+    font-family: sans-serif;
+}
+
+.home   {
+    font-weight: bold;
+    margin-right: auto;
+    font-size: 24px;
+}
+
+.body-one   {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 30px;
+    flex: auto;
+}
+
+.body-one-text  {
+    width: 450px;
+}
+
+.adventure  {
+    font-size: 48px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.adventure-text {
+    color: #e5e7eb;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+}
+
+.hiking {
+    height: 250px;
+    width: 400px;
+    padding-left: 50px;
+}
+
+button  {
+    width: fit-content;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 15px;
+    margin-top: 8px;
+}
+
+.body-two   {
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+}
+
+.community  {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.two    {
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #3882f6;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.img-text   {
+    width: 150px;
+    font-size: 14px;
+    color: #333333;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.body-three {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 70px 400px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.quote  {
+    font-size: 36px;
+    font-style: italic;
+    max-width: 600px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.bilbo  {
+    font-weight: bold;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.body-four  {
+    margin: 70px 200px;
+    padding: 40px 80px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.body-four-text {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 8px;
+}
+
+.text-four-one  {
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.last-button    {
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 15px 0px;
+}
